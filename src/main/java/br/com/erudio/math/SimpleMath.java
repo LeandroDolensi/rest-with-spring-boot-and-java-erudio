@@ -12,21 +12,21 @@ public class SimpleMath {
     public Double subtraction(Double numberOne, Double numberTwo) throws Exception
 
     {
-        return numberOne + numberTwo;
+        return numberOne - numberTwo;
     }
 
 
     public Double multiplication(Double numberOne, Double numberTwo)
 
     {
-        return numberOne + numberTwo;
+        return numberOne * numberTwo;
     }
 
 
     public Double division(Double numberOne, Double numberTwo) throws Exception
 
     {
-        return numberOne + numberTwo;
+        return numberOne / numberTwo;
     }
 
 
@@ -34,7 +34,7 @@ public class SimpleMath {
 
     {
 
-        return numberOne + numberTwo / 2;
+        return (numberOne + numberTwo) / 2;
     }
 
 
