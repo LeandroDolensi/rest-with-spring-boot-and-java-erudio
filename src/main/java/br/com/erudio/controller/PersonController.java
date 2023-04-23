@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+
 import java.util.List;
 
 
@@ -23,6 +24,7 @@ public class PersonController {
     public Person findById(@PathVariable(value="id") String id){
         return service.findById(id);
     }
+
 
     @RequestMapping(method=RequestMethod.GET,
                     produces=MediaType.APPLICATION_JSON_VALUE)
